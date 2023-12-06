@@ -1,0 +1,825 @@
+/* Font types */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat';
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* Home */
+
+#inicio {
+	background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("images/coffecup2.jpg");
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+}
+
+#inicio .contenido header {
+	background-color: transparent;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	top: 0;
+}
+
+#inicio .contenido header .contenido-header {
+	max-width: 1100px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+#inicio .contenido header .contenido-header i {
+	max-width: 767px;
+	margin-left: 0px;
+	border-radius: 100%;
+	color: #e67300;
+	margin-top: -20px;
+}
+
+#inicio .contenido header .contenido-header i:hover {
+	color: #ff8c1a;
+	transition: .5s;
+}
+
+#inicio .contenido header .contenido-header h1 {
+	text-align: center;
+	color: #cccccc;
+	font-family: 'Edu TAS Beginner', cursive;
+	font-family: 'Noto Serif Old Uyghur', serif;
+	font-weight: lighter;
+	filter: brightness(1.75);
+}
+
+#incio .contenido header .contenido-header nav ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+
+#inicio .contenido header .contenido-header nav ul a {
+	text-decoration: none;
+	color: #c60;
+	margin: 0 12px;
+	font-weight: 400;
+	transition: .5s;
+	font-family: bookman old style;
+	font-size: 13px;
+}
+
+#inicio .contenido header .contenido-header nav ul a:hover {
+	color: #c00;
+}
+
+#inicio .contenido header .contenido-header .redes a {
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	margin-left: 0px;
+	transition: .5s;
+	margin: 20px;
+	margin-top: 9px;
+	font-size: 13px;
+}
+
+#inicio .contenido header .contenido-header .redes a:hover {
+	color: white;
+}
+
+#inicio .contenido header .contenido-header .seleccionado {
+	color: #c60;
+}
+
+#inicio .contenido .presentacion {
+	max-width: 700px;
+	height: 100vh;
+	margin: auto;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 350px;
+	margin-left: 0px;
+}
+
+#inicio .contenido .presentacion .bienvenida {
+	font-size: 16px;
+	margin-bottom: 20px;
+	text-transform: uppercas;
+	letter-spacing: 5px;
+	font-weight: lighter;
+	max-width: 700px;
+	width: 750px;
+	margin-left: 1350px;
+	margin-top: 0px;
+}
+
+#inicio .contenido .presentacion h2 {
+	font-size: 50px;
+	margin-bottom: 25px;
+	text-align: center;
+	font-family: bookman old style;
+	font-weight: lighter;
+	max-width: 700px;
+	margin-top: 0px;
+	width: 750px;
+	margin-left: 950px;
+}
+
+#inicio .contenido .presentacion .descripcion {
+	max-width: 700px;
+	margin: 0px;
+	font-size: 27px;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	font-weight: lighter;
+	width: 550px;
+	margin-left: 940px;
+}
+
+#inicio .contenido .presentacion a {
+	text-decoration: none;
+	display: inline-block;
+	margin: 50px;
+	padding: 20px 25px;
+	border: 1px;
+	border-radius: 10px;
+	color: #fff;
+	font-weight: lighter;
+	transition: .5s;
+	font-size: 20px;
+	background-color: #663300;
+	margin-right: -875px;
+}
+
+#inicio .contenido .presentacion a:hover {
+	background-color: #331a00;
+}
+
+#icono-nav {
+	color: #fff;
+	display: none;
+}
+
+/* About us */
+
+#sobremi {
+	max-width: 1350px;
+	margin: auto;
+	padding: 10px 0px;
+	color: black;
+	display: flex;
+	background-color: #663300;
+	height: 700px;
+}
+
+#sobremi .contenedor-foto {
+	max-width: 400px;
+	margin-right: 80px;
+	margin-top: 140px;
+	margin-left: 60px;
+}
+
+#sobremi .contenedor-foto img {
+	padding: 10px;
+	width: 650px;
+	height: 450px;
+	border-radius: 20px;
+	background-color: transparent;
+}
+
+#sobremi .sobremi {
+	margin: 0 240px;
+}
+
+#sobremi .sobremi .titulo-seccion {
+	font-size: 60px;
+	text-transform: uppercas;
+	color: black;
+	text-decoration-color: #d3d3d3;
+	text-decoration-thickness: 5px;
+	font-weight: lighter;
+	font-family: 'Dancing Script', cursive;
+	margin-left: -300px;
+	margin-top: 50px;
+}
+
+#sobremi .sobremi h2 {
+	font-size: 17px;
+	color: black;
+	margin-bottom: 0px;
+	font-weight: lighter;
+	font-family: bookman old style;
+	font-style: italic;
+	margin-top: 45px;
+	width: 400px;
+}
+
+#sobremi .sobremi h3 {
+	font-size: 17px;
+	color: black;
+	margin-bottom: 0px;
+	font-weight: lighter;
+	font-family: bookman old style;
+	font-style: italic;
+	margin-top: 37.5px;
+	width: 400px;
+}
+
+#sobremi .sobremi h4 {
+	font-size: 17px;
+	color: black;
+	margin-bottom: 0px;
+	font-weight: lighter;
+	font-family: bookman old style;
+	font-style: italic;
+	margin-top: 37.5px;
+	width: 400px;
+}
+
+/* Services */
+
+#servicios {
+	padding: 100px 15px;
+	text-align: center;
+	background-image: url(images/coffeecup18.jpg);
+	background-repeat: no-repeat;
+	height: 720px;
+}
+
+#servicios .titulo-seccion {
+	font-size: 30px;
+	text-transform: uppercas;
+	color: white;
+	text-decoration-color: #cc0000;
+	text-decoration-thickness: 5px;
+	font-weight: lighter;
+	margin-top: -15px;
+	font-style: italic;
+	font-family: bookman old style;
+}
+
+#servicios .fila {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1100px;
+	margin: 30px auto;
+}
+
+#servicios .fila .servicio img {
+	border-radius: 10px;
+	width: 357.5px;
+	height: 260px;
+	margin-top: 0px;
+	margin-left: -5px;
+}
+
+#servicios .fila .servicio {
+	max-width: 350px;
+	height: 260px;
+	background-color: transparent;
+	padding: 1px;
+	margin: 0px;
+	border-radius: 5px;
+	transition: 1s;
+}
+
+#servicios .fila .servicio:hover {
+	box-shadow: 5px 5px 10px gold, -5px -5px 10px goldenrod;
+}
+
+#servicios .fila .servicio h4 {
+	font-size: 22px;
+	margin-bottom: 25px;
+	margin-top: -250px;
+	color: white;
+	margin-left: 0px;
+}
+
+#servicios .fila .servicio .icono {
+	display: inline-flex;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #cc0000;
+	padding: 20px;
+	margin-bottom: 25px;
+}
+
+#servicios .fila .servicio hr {
+	width: 30%;
+	margin: auto;
+	color: white;
+	margin-bottom: 25px;
+	margin-left: 118px;
+}
+
+#servicios .fila .servicio ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	margin-left: -35px;
+}
+
+#servicios .fila .servicio p {
+	font-size: 14px;
+	line-height: 22px;
+	color: white;
+	margin-left: 0px;
+	text-align: center;
+	margin-top: 150px;
+}
+
+/* Our Packaged Coffees */
+
+#opc {
+	padding: 100px 15px;
+	text-align: center;
+	background-color: #4d0f00;
+	background-repeat: no-repeat;
+}
+
+#opc .titulo-seccion {
+	font-size: 30px;
+	text-transform: uppercas;
+	color: white;
+	text-decoration-color: #cc0000;
+	text-decoration-thickness: 5px;
+	font-weight: lighter;
+	margin-top: 0px;
+	font-family: 'Noto Sans Kawi', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+#opc .fila .pc h4 {
+	font-size: 22px;
+	margin-top: 60px;
+	color: white;
+	margin-left: 0px;
+}
+
+#opc .fila {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1100px;
+	margin: 30px auto;
+}
+
+#opc .fila .pc img {
+	border-radius: 10px;
+	width: 275px;
+	height: 400px;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+#opc .fila .pc {
+	max-width: 350px;
+	background-color: transparent;
+	padding: 5px;
+	margin: 0px;
+	border-radius: 5px;
+	transition: .5s;
+}
+
+#opc .fila .pc:hove {
+	box-shadow: 5px 5px 5px red, 5px 5px 5px red;
+}
+
+#opc .fila .pc .icono {
+	display: inline-flex;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #cc0000;
+	padding: 20px;
+	margin-bottom: 25px;
+}
+
+opc .fila .pc hr {
+	width: 30%;
+	margin: auto;
+	color: white;
+	margin-bottom: 25px;
+	margin-left: 118px;
+}
+
+#opc .fila .pc ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	margin-left: -35px;
+}
+
+#opc .fila .pc p {
+	font-size: 14px;
+	line-height: 22px;
+	color: white;
+	margin-left: 15px;
+	text-align: center;
+	margin-top: 20px;
+	width: 250px;
+}
+
+
+
+
+/* Skills */
+
+
+
+/* Este estilo se aplicarÃ¡ luego, mediante JavaScript, para lograr la animaciÃ³n de la barra */
+
+
+
+/* Creamos las animaciones de las barras */
+
+
+
+/* Portfolio */
+
+#portfolio {
+	max-width: 1100px;
+	padding: 100px 0;
+	margin: auto;
+	height: 400px;
+}
+
+#portfolio .titulo-seccion {
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: black;
+	text-decoration-color: #d3d3d3;
+	text-decoration-thickness: 5px;
+	font-weight: lighter;
+	margin-top: -25px;
+}
+
+#portfolio .fila {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0;
+}
+
+#portfolio .fila .proyecto {
+	max-width: 450px;
+	border: 1px solid #000;
+	margin: 0 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+#portfolio .fila .proyecto img {
+	width: 100%;
+	height: 100%;
+	filter: grayscale(1);
+	object-fit: cover;
+	transition: .5s;
+}
+
+#portfolio .fila .proyecto:hover img {
+	filter: grayscale(0);
+}
+
+#portfolio .fila .proyecto .info {
+	position: absolute;
+	left: 0;
+	background-color: rgba(0, 0, 0, .8);
+	font-size: 13px;
+	color: red;
+	width: 100%;
+	padding: 10px;
+	opacity: 0;
+	bottom: -40px;
+	transition: .5s;
+
+}
+
+#portfolio .fila .proyecto:hover .info {
+	opacity: 1;
+	bottom: 0;
+}
+
+/* Contact */
+
+#contacto {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #663300;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	color: white;
+	font-weight: lighter;
+}
+
+.form-content {
+	background: linear-gradient(50deg,
+			rgba(40, 42, 55, 1) 50%,
+			rgba(40, 42, 55, 0.7)),
+		url(images/coffeecup20.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 50px;
+	width: 1400px;
+	border-radius: 0px;
+}
+
+.form-content h2 {
+	color: goldenrod;
+	font-size: 40px;
+	margin-bottom: 25px;
+	margin-top: 50px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+label {
+	font-size: 17px;
+	color: white;
+	margin-bottom: 10px;
+}
+
+input,
+textarea {
+	padding: 17px 14px;
+	background-color: #333646;
+	border: 0;
+	font-size: 15px;
+	color: white;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+:focus {
+	outline: 1px solid #1e92e9;
+}
+
+.btn {
+	background-color: #800000;
+	width: 150px;
+	align-self: flex-end;
+	cursor: pointer;
+	color: white;
+}
+
+.btn:hover {
+	background-color: #4d0f00;
+	color: goldenrod;
+	transition: .5s;
+}
+
+
+
+/* Footer */
+
+#footer {
+	background-color: #4d0f00;
+	color: #fff;
+	text-align: center;
+	padding: 30px 0;
+}
+
+#footer p:hover {
+	color: goldenrod;
+	transition: .5s;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	margin: 30px;
+	font-size: 13px;
+}
+
+#footer a:hover {
+	color: goldenrod;
+	transition: .5s;
+}
+
+#footer p {
+	font-size: 13px;
+}
+
+/* Responsive */
+
+@media screen and (max-width:800px) {
+	.redes {
+		display: none;
+	}
+
+	nav {
+		display: none;
+	}
+
+	nav.responsive {
+		display: block;
+		background-color: rgba(0, 0, 0, .8);
+		width: 100%;
+		position: absolute;
+		top: 48px;
+		left: 0;
+		padding: 10px 0;
+	}
+
+	nav.responsive ul {
+		display: block !important;
+		text-align: center;
+	}
+
+	nav.responsive ul li {
+		margin: 5px 0;
+	}
+
+	#icono-nav {
+		display: block;
+	}
+
+	#inicio .contenido .presentacion .bienvenida {
+		max-width: 390px;
+		font-size: 20px;
+		margin-left: 100px;
+	}
+
+	#inicio .contenido .presentacion h2 {
+		max-width: 390px;
+		margin-left: 25px;
+		font-size: 25px;
+	}
+
+	#inicio .contenido .presentacion .descripcion {
+		max-width: 400px;
+		line-height: 25px;
+		margin-left: 50px;
+	}
+
+	#inicio .contenido .presentacion a {
+		max-width: 390px;
+		margin-right: 0px;
+	}
+
+	#sobremi {
+		padding: 40px 0;
+		display: block;
+		height: 1300px;
+	}
+
+	#sobremi .contenedor-foto {
+		max-width: 500px;
+		margin: auto;
+		margin-top: 100px;
+		margin-left: -100px;
+
+	}
+
+	#sobremi .contenedor-foto img {
+		padding: 8px;
+		max-width: 350px;
+		margin-left: 120px;
+	}
+
+	#sobremi .sobremi {
+		margin: 0 10px;
+	}
+
+	#sobremi .sobremi .titulo-seccion {
+		text-align: center;
+		margin-top: -560px;
+		font-size: 60px;
+		margin-left: 10px;
+	}
+
+	#sobremi .sobremi h2 {
+		text-align: center;
+		margin-left: 30px;
+		max-width: 300px;
+		line-height: 30px;
+		margin-top: 500px;
+	}
+
+	#sobremi .sobremi h3 {
+		text-align: center;
+		margin-left: 30px;
+		max-width: 300px;
+		line-height: 30px;
+	}
+
+	#sobremi .sobremi h4 {
+		text-align: center;
+		margin-left: 30px;
+		max-width: 300px;
+		line-height: 30px;
+	}
+
+	#servicios {
+		padding: 50px 15px;
+		height: 1800px;
+	}
+
+	#servicios .fila {
+		display: block;
+	}
+
+	#servicios .fila .servicio {
+		margin: 10px auto;
+	}
+
+	#servicios .fila .servicio img {
+		margin: 20px;
+		margin-left: -10px;
+	}
+
+	#servicios .fila .servicio h4 {
+		margin-bottom: 1px;
+	}
+
+	#opc {
+		padding: 50px 15px;
+		height: 4000px;
+	}
+
+	#opc .fila {
+		display: block;
+	}
+
+	#opc .fila .pc {
+		margin: 10px auto;
+	}
+
+	#opc .fila .pc img {
+		margin: 20px;
+		margin-left: 10px;
+	}
+
+	#opc .fila .pc p {
+		margin-left: 40px;
+	}
+
+	.contenedor-skills {
+		padding: 50px 20px;
+	}
+
+	#portfolio {
+		padding: 50px 0;
+		height: 920px;
+	}
+
+	#portfolio .fila {
+		display: block;
+	}
+
+	#portfolio .titulo-seccion {
+		margin-top: 20px;
+	}
+
+	#portfolio .fila .proyecto {
+		margin: 10px auto;
+	}
+
+
+
+	.form-content {
+		width: 100%;
+	}
+
+	form {
+		width: 100%;
+	}
+
+	#footer {
+		height: 300px;
+		margin-top: -12px;
+	}
+
+	#footer .redes a {
+		margin-left: 100px;
+		margin-bottom: 100px;
+		margin-top: -100px;
+
+	}
+
+
+
+}

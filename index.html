@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<!-- Metadatos -->
+	<meta charset="utf-8">
+	<meta name="author" content="ManCom">
+	<meta name="description" content="Portafolio de desarrollo web de ManCom">
+	<meta name="keywords" content="HTML, CSS, JavaScript, React">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<style type="text/css">
+		a:link,
+		a:visited,
+		a:active {
+			text-decoration: none;
+		}
+	</style>
+
+	<!-- Titulo -->
+
+	<title>Horacio Manuli | Front End Developer</title>
+
+	<!-- Favicon -->
+
+	<link rel="icon" type="image/x-icon" href="images/coffecup6.jpg">
+
+	<!-- Bootstrap -->
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+	<!-- Iconos de Bootstrap -->
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+	<!-- Iconos de Font-Awesome -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- CSS -->
+
+	<link href="style.css" rel="stylesheet">
+
+	<!-- Goggle Fonts -->
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@100&family=Playfair+Display&family=Roboto:wght@100&display=swap"
+		rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Noto+Serif+Old+Uyghur&display=swap"
+		rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Kawi&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Kawi&family=Roboto:wght@100&display=swap"
+		rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+	<!-- Home -->
+	<section id="inicio">
+		<div class="contenido">
+			<header>
+				<div class="contenido-header">
+
+					<i class="bi bi-cup-hot"></i>
+
+					<nav id="nav" class="">
+						<ul id="links">
+							<a href="#inicio" class="seleccionado" onclick="seleccionar(this)"><span
+									style="color: #c60;">HOME</span></a>
+							<a href="#sobremi" onclick="seleccionar(this)">ABOUT US</a>
+							<a href="#servicios" onclick="seleccionar(this)">OUR COFFEES</a>
+							<a href="#opc" onclick="seleccionar(this)">PACKAGED</a>
+							<a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a>
+							<a href="#contacto" onclick="seleccionar(this)">CONTACT</a>
+						</ul>
+					</nav>
+
+					<!-- Íconos del menú responsive -->
+					<div id="icono-nav" onclick="responsiveMenu()">
+						<i class="fa-solid fa-bars"></i>
+					</div>
+
+					<!-- Iconos de las redes sociales -->
+
+					<div class="redes">
+
+						<a href="https://www.linkedin.com/in/horaciomanuliwd/" target="_blank"
+							rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+
+						<a href="https://www.instagram.com/horaciomanuliwd/" target="_blank"
+							rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+
+						<a href="#contacto"><i class="fa-regular fa-envelope"></i></a>
+
+						<a href="#footer"><i class="fa-brands fa-whatsapp"></i></a>
+
+					</div>
+
+				</div>
+
+			</header>
+
+			<div class="presentacion">
+				<p class="bienvenida">The best caress at dawn</p>
+				<h2>ManCom Coffee</h2>
+				<p class="descripcion">I invite you, to try our distinctive class of coffees. Original, classic and
+					modern, but always the tastiest.
+				</p>
+				<a href="#portfolio">Get it now</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- About Me -->
+
+	<section id="sobremi">
+		<div class="contenedor-foto">
+			<img src="images/coffeecup20.jpg" alt="">
+		</div>
+		<div class="sobremi">
+			<p class="titulo-seccion">Coffee Lounge</p>
+
+			<h2>ManCom Coffee is the ideal place to pamper yourself, enjoying the best coffee on the market, in a
+				pleasant
+				atmosphere.</h2>
+
+			<h3>Visit our modern bar and feel like you're on vacation, thanks to our lively music and our delicious
+				infusions. In our bar, we have everything essential so that people with reduced mobility can access it.
+				We are
+				pet friendly, and we will be happy for you to come with yours.</h3>
+
+			<h4>Enjoy an evening in a relaxed atmosphere, with stunning views from our rooftop bar.The best thing is
+				that you
+				book right now, we are waiting for you.</h4>
+
+		</div>
+	</section>
+
+	<!-- Services -->
+
+	<section id="servicios">
+		<h3 class="titulo-seccion">Our Coffees</h3>
+		<div class="fila">
+			<div class="servicio">
+				<img src="images/coffeecup10.jpg" alt="">
+				<h4>Black Coffee</h4>
+				<hr>
+				<ul class="servicios-tag">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<p>Espresso coffee + hot water</p>
+			</div>
+			<div class="servicio">
+				<img src="images/coffeecup13.jpg" alt="">
+				<h4>Coffee latte</h4>
+				<hr>
+				<ul class="servicios-tag">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<p>Espresso coffee + fresh cold milk</p>
+			</div>
+			<div class="servicio">
+				<img src="images/arabiccoffee1.jpg" alt="">
+				<h4>Arabic Coffee</h4>
+				<hr>
+				<ul class="servicios-tag">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<p>Espresso coffee + spices</p>
+			</div>
+		</div>
+		<div class="fila">
+			<div class="servicio">
+				<img src="images/coffeecup14.jpg" alt="">
+				<h4>Capuccino</h4>
+				<hr>
+				<ul class="servicios-tag">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<p>Espresso coffee and equal parts milk and cream</p>
+			</div>
+			<div class="servicio">
+				<img src="images/irishcoffee1.jpg" alt="">
+				<h4>Irish Coffee</h4>
+				<hr>
+				<ul class="servicios-tag">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<p>Double espresso, whiskey and cream</p>
+			</div>
+			<div class="servicio">
+				<img src="images/icecoffee2.jpg" alt="">
+				<h4>Ice Coffee</h4>
+				<hr>
+				<ul class="servicios-tag">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<p>Ground instant coffee, ice and milk cream</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Our Packaged Coffees -->
+
+	<section id="opc">
+		<h3 class="titulo-seccion">Our packaged coffees</h3>
+		<div class="fila">
+			<div class="pc">
+				<h4>Gold</h4>
+				<img src="images/nescafegold1.webp" alt="">
+				<hr>
+				<ul class="opc-tag">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<p>Carefully crafted for special moments</p>
+			</div>
+			<div class="pc">
+				<h4>Gold Intense</h4>
+				<img src="images/nescafegoldintense1.webp" alt="">
+				<hr>
+				<ul class="opc-tag">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<p>The Gold, now with toasted notes and intense flavor and scent</p>
+			</div>
+			<div class="pc">
+				<h4>Gold Intense Vainilla</h4>
+				<img src="images/nescafegoldvainilla1.webp" alt="">
+				<hr>
+				<ul class="opc-tag">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<p>Its selection of beans results in a perfect and exquisite cup</p>
+			</div>
+		</div>
+		<div class="fila">
+			<div class="pc">
+				<h4>Clásico</h4>
+				<img src="images/nescafeclasico1.webp" alt="">
+				<hr>
+				<ul class="opc-tag">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<p>Its roasted beans will make you enjoy your routine more</p>
+			</div>
+			<div class="pc">
+				<h4>Molido Intenso</h4>
+				<img src="images/nescafemolido1.webp" alt="">
+				<hr>
+				<ul class="opc-tag">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<p>They may have a smoky touch, but the bitterness is pronounced</p>
+			</div>
+			<div class="pc">
+				<h4>Molido Suave</h4>
+				<img src="images/nescafemolido2.webp" alt="">
+				<hr>
+				<ul class="opc-tag">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<p>The scent it gives off is more fruity</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Skills -->
+
+
+	<!-- Portfolio -->
+
+	<section id="portfolio">
+
+		<h3 class="titulo-seccion">My Portfolio</h3>
+
+		<div class="fila">
+			<div class="proyecto">
+				<div class="overlay"></div>
+				<img src="images/mancomwd1.png" alt="">
+				<div class="info">
+					<a href="https://www.mancomwd.com/#inicio" target="_blank" rel="noopener noreferrer">
+						<h4><span style="color: #f33;font-size: 17px;">Go to</span></h4>
+					</a>
+					<p><span style="color: #f33;font-size: 13px;">My Portfolio</span></p>
+				</div>
+			</div>
+
+			<div class="proyecto">
+				<div class="overlay"></div>
+				<img src="images/proyecto2.png" alt="">
+				<div class="info">
+					<a href="https://mancomart.mancomwd.com/" target="_blank" rel="noopener noreferrer">
+						<h4><span style="color: #0096d2;font-size: 17px;">Go to</span></h4>
+					</a>
+					<p><span style="color: #0096d2;">MC Art</span></p>
+				</div>
+			</div>
+
+			<div class="proyecto">
+				<div class="overlay"></div>
+				<img src="images/proyecto1.png" alt="">
+				<div class="info">
+
+					<h4><span style="color: #ad33ff;font-size: 17px;">Alternative Portfolio</span></h4>
+					</a>
+					<p><span style="color: #ad33ff;font-size: 13px;">Coming soon</span></p>
+				</div>
+			</div>
+
+
+		</div>
+		<div class="fil">
+			<div class="proyect">
+				<div class="overlay"></div>
+				<img src="images/" alt="">
+				<div class="inf">
+					<h4></h4>
+					<p></p>
+				</div>
+			</div>
+
+			<div class="proyect">
+				<div class="overlay"></div>
+				<img src="images/" alt="">
+				<div class="inf">
+					<h4></h4>
+					<p></p>
+				</div>
+			</div>
+
+			<div class="proyect">
+				<div class="overlay"></div>
+				<img src="images/" alt="">
+				<div class="inf">
+					<h4></h4>
+					<p></p>
+				</div>
+			</div>
+
+
+		</div>
+		<div class="fil">
+			<div class="proyect">
+				<div class="overlay"></div>
+				<img src="images/" alt="">
+				<div class="inf">
+					<h4></h4>
+					<p></p>
+				</div>
+			</div>
+
+			<div class="proyect">
+				<div class="overlay"></div>
+				<img src="images/" alt="">
+				<div class="inf">
+					<h4></h4>
+					<p></p>
+				</div>
+			</div>
+
+			<div class="proyect">
+				<div class="overlay"></div>
+				<img src="images/" alt="">
+				<div class="inf">
+					<h4></h4>
+					<p></p>
+				</div>
+			</div>
+
+
+		</div>
+
+
+	</section>
+
+	<!-- Contacto -->
+
+	<div id="contacto">
+
+		<div class="form-content">
+
+			<h2>Contact Me</h2>
+
+			<form action="https://formsubmit.co/info@mancomwd.com" method="POST">
+
+				<label for="name">Full Name</label>
+				<input type="text" name="name" id="name">
+
+				<label for="email">Mail</label>
+				<input type="email" name="email" id="email">
+
+				<label for="subject">About</label>
+				<input type="text" name="subject" id="subject">
+
+				<label for="comments">Message</label>
+				<textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+
+				<input class="btn" type="submit" value="Send">
+
+				<input type="hidden" name="_next" value="https://www.mancomwd.com/#inicio">
+
+				<input type="hidden" name="_captcha" value="false">
+
+
+			</form>
+
+
+		</div>
+
+	</div>
+
+	<!-- Footer -->
+
+	<section id="footer">
+
+		<p>Created by Horacio Manuli</p>
+
+		<p>All Rights Reserved - (2023) &#169;</p>
+
+		<div class="redes">
+
+			<a href="https://www.linkedin.com/in/horaciomanuliwd/" target="_blank" rel="noopener noreferrer"><i
+					class="fa-brands fa-linkedin"></i></a>
+
+			<a href="https://www.instagram.com/horaciomanuliwd/" target="_blank" rel="noopener noreferrer"><i
+					class="bi bi-instagram"></i></a>
+
+			<a href="#contacto"><i class="fa-regular fa-envelope"></i></a>
+
+			<p><i class="fa-brands fa-whatsapp"></i> +54 9 11 38001067</p>
+
+		</div>
+
+	</section>
+
+	<script src="script.js"></script>
+
+</body>
+
+</html>
